@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountains</title>    
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./media/images/favicon/favicon.png"/>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/a2280a7181.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- styles -->
+    <link rel="stylesheet" href="build/main.css">
+</head>
+<body>
+    <div class='spinner-wrapper'>
+        <div class="spinner">
+        </div>
+        <p>
+            Loading...
+        </p>
+    </div>
+    <div class="navigation">
+        <ul>
+            <a href=""> <li>Inspiration</li> </a> 
+            <a href=""> <li>Gallery</li> </a> 
+            <a href=""> <li>Prices</li> </a> 
+        </ul>
+    </div>
+    <div class="header-video" onclick="stopVideo()">
+        <p id="skip">Click for skip</p>
+        <div class="video video-1">
+            <video src="./media/video/first.mp4" autoplay muted loop id="video1"></video>
+            <h1 id="video1-h1">Your next adventure starts right on your doorstep.</h1>
+        </div>
+        <div class="video video-2">
+            <video src="./media/video/second.mp4" autoplay muted loop id="video2"></video>
+            <h1 id="video2-h1">Travel further, than you imagine</h1>
+        </div>
+        <div class="video video-3">
+            <video src="./media/video/third.mp4" autoplay muted loop id="video3"></video>
+            <h1 id="video3-h1">Get surprised by the Nature</h1>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-content">
+            <div class="header-h1">
+                <h1>local</h1>
+                <h1>adventure</h1>
+            </div>
+            <div class="header-paragraph">
+                <p>Limit your travel, not your adventures. Explore your surroundings, share your experience and win!</p>
+                <a href="#"> <i class="fas fa-share-square"></i> Share Your Adventure</a>
+            </div>
+            <a href=""> <i class="far fa-arrow-alt-circle-down"></i> </a> 
+        </div>
+    </div>
+    <script src="./javascript/load.js"></script>
+    <script src="./javascript/video.js"></script>
+</body>
+</html>
