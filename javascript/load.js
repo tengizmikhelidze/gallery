@@ -1,5 +1,5 @@
 var spinnerWrapper = document.querySelector('.spinner-wrapper');
-var downArrow = document.getElementsByClassName('fa-arrow-alt-circle-down');
+var downArrow = document.getElementById('downArrowLogo');
 
 window.addEventListener("load", ()=>{
     spinnerWrapper.remove();
@@ -7,8 +7,8 @@ window.addEventListener("load", ()=>{
 
 window.addEventListener('scroll', ()=>{
     if(window.scrollY > window.innerHeight/4){
-        downArrow[0].style.display = "none";
+        downArrow.style.display = "none";
     } else {
-        downArrow[0].style.display = "initial";
+        downArrow.style.display = "initial";
     }
 })

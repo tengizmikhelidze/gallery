@@ -112,6 +112,10 @@ table {
   align-items: center;
   z-index: 1;
 }
+.navigation .logo {
+  position: fixed;
+  left: 5%;
+}
 .navigation ul {
   list-style-type: none;
 }

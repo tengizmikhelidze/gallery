@@ -9,6 +9,10 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
+    .logo{
+        position: fixed;
+        left: 5%;
+    }
     ul{
         list-style-type: none;
         a{
