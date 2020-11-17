@@ -122,7 +122,7 @@ table {
   display: inline;
   margin: 0 20px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -224,7 +224,7 @@ table {
 .header-h1 {
   position: absolute;
   font-weight: 700;
-  font-size: 220px;
+  font-size: 180px;
   color: #fff;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -254,7 +254,7 @@ table {
   position: absolute;
   bottom: -16%;
   right: 10%;
-  font-size: 35px;
+  font-size: 28px;
   color: #fff;
   letter-spacing: 1px;
 }
@@ -267,13 +267,12 @@ table {
   font-weight: 300;
 }
 
-.fa-arrow-alt-circle-down {
+#downArrowLogo {
   position: absolute;
   left: 50%;
   bottom: 10%;
   transform: translate(-50%, -50%);
-  font-size: 4em;
-  color: red;
+  transform: rotate(180deg);
   animation-duration: 1s;
   animation-name: downArrow;
   animation-iteration-count: infinite;

@@ -28,7 +28,7 @@
 .header-h1{
     position: absolute;
     font-weight: 700;
-    font-size: 220px;
+    font-size: 180px;
     color: $color-text;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -59,7 +59,7 @@
     position: absolute;
     bottom: -16%;
     right: 10%;
-    font-size: 35px;
+    font-size: 28px;
     color: $color-text;
     letter-spacing: 1px;
     p{
@@ -72,13 +72,12 @@
     }
 }
 
-.fa-arrow-alt-circle-down{
+#downArrowLogo{
     position: absolute;
     left: 50%;
     bottom: 10%;
     transform: translate(-50%, -50%);
-    font-size: 4em;
-    color: red;
+    transform: rotate(180deg);
     animation-duration: 1s;
     animation-name: downArrow;
     animation-iteration-count: infinite;
