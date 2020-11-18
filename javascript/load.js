@@ -43,10 +43,3 @@ window.addEventListener("load", ()=>{
     }, 15000);
 })  
 
-window.addEventListener('scroll', ()=>{
-    if(window.scrollY > window.innerHeight/4){
-        downArrow.style.display = "none";
-    } else {
-        downArrow.style.display = "initial";
-    }
-})

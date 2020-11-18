@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- styles -->
     <link rel="stylesheet" href="build/main.css">
+    <!-- Lightbox -->
+    <link rel="stylesheet" href="./lightbox2/dist/css/lightbox.css">
+    <script src="./lightbox2/dist/js/lightbox-plus-jquery.js"></script>
 </head>
 <body>
     <div class='spinner-wrapper'>
@@ -68,28 +71,112 @@
                 <h1>Adventures to get you inspired</h1>
                 <div class="gallery-grid">
                     <div class="gallery-grid-column gallery-grid-left">
-                        <div class="img img-1">
-                            <div class="gallery-grid-head">
-                                <p>01</p>
-                                <h1>Explore the dunes</h1>
+                        <a href="./media/images/gallery/1.jpg" data-title="Explore the dunes" data-lightbox="mygallery"> 
+                            <div class="img img-1">
+                                <div class="gallery-grid-head">
+                                    <div class="gallery-grid-head-text">
+                                        <p>01</p>
+                                        <h1>Explore the dunes</h1>
+                                    </div>
+                                    <div class="gallery-grid-head-hover">
+                                        <i class="fas fa-expand-arrows-alt"></i>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="img img-2">
-                        </div>
-                        <div class="img img-3">
-                        </div>
-                        <div class="img img-4">
-                        </div>
+                        </a>
+                        <a href="./media/images/gallery/2.jpg" data-title="njoy a sunrise" data-lightbox="mygallery"> 
+                            <div class="img img-2">
+                                <div class="gallery-grid-head">
+                                    <div class="gallery-grid-head-text">
+                                        <p>03</p>
+                                        <h1>Enjoy a sunrise</h1>
+                                    </div>
+                                    <div class="gallery-grid-head-hover">
+                                        <i class="fas fa-expand-arrows-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./media/images/gallery/3.jpg" data-title="Don't mind to get wet" data-lightbox="mygallery"> 
+                            <div class="img img-3">
+                                <div class="gallery-grid-head">
+                                    <div class="gallery-grid-head-text">
+                                        <p>05</p>
+                                        <h1>Don't mind to get wet</h1>
+                                    </div>
+                                    <div class="gallery-grid-head-hover">
+                                        <i class="fas fa-expand-arrows-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./media/images/gallery/4.jpg" data-title="Go camping" data-lightbox="mygallery"> 
+                            <div class="img img-4">
+                                <div class="gallery-grid-head">
+                                    <div class="gallery-grid-head-text">
+                                        <p>07</p>
+                                        <h1>Go camping</h1>
+                                    </div>
+                                    <div class="gallery-grid-head-hover">
+                                        <i class="fas fa-expand-arrows-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="gallery-grid-column gallery-grid-right">
-                        <div class="img img-5">
-                        </div>
-                        <div class="img img-6">
-                        </div>
-                        <div class="img img-7">
-                        </div>
-                        <div class="img img-8">
-                        </div>
+                        <a href="./media/images/gallery/5.jpg" data-title="Watch stars" data-lightbox="mygallery"> 
+                            <div class="img img-5">
+                                <div class="gallery-grid-head">
+                                    <div class="gallery-grid-head-text">
+                                        <p>02</p>
+                                        <h1>Watch stars</h1>
+                                    </div>
+                                    <div class="gallery-grid-head-hover">
+                                        <i class="fas fa-expand-arrows-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./media/images/gallery/6.jpg" data-title="Leave no traces" data-lightbox="mygallery"> 
+                            <div class="img img-6">
+                                <div class="gallery-grid-head">
+                                    <div class="gallery-grid-head-text">
+                                        <p>04</p>
+                                        <h1>Leave no traces</h1>
+                                    </div>
+                                    <div class="gallery-grid-head-hover">
+                                        <i class="fas fa-expand-arrows-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./media/images/gallery/7.jpg" data-title="Reach peaks" data-lightbox="mygallery"> 
+                            <div class="img img-7">
+                                <div class="gallery-grid-head">
+                                    <div class="gallery-grid-head-text">
+                                        <p>06</p>
+                                        <h1>Reach peaks</h1>
+                                    </div>
+                                    <div class="gallery-grid-head-hover">
+                                        <i class="fas fa-expand-arrows-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./media/images/gallery/8.jpg" data-title="Explore nature" data-lightbox="mygallery"> 
+                            <div class="img img-8">
+                                <div class="gallery-grid-head">
+                                    <div class="gallery-grid-head-text">
+                                        <p>08</p>
+                                        <h1>Explore nature</h1>
+                                    </div>
+                                    <div class="gallery-grid-head-hover">
+                                        <i class="fas fa-expand-arrows-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -97,5 +184,7 @@
     </main>
     <!-- load -->
     <script src="./javascript/load.js"></script>
+    <!-- eventListeners -->
+    <script src="./javascript/eventListeners.js"></script>
 </body>
 </html>
