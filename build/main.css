@@ -119,12 +119,12 @@ table {
 .navigation ul {
   list-style-type: none;
 }
-.navigation ul a {
-  text-decoration: none;
-}
 .navigation ul li {
   display: inline;
   margin: 0 20px;
+}
+.navigation ul li a {
+  text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   color: #fff;

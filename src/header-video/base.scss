@@ -15,16 +15,16 @@
     }
     ul{
         list-style-type: none;
-        a{
-            text-decoration: none;
-        }
         li{
+            a{
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 18px;
+                color: $color-text;
+                text-transform: uppercase;
+            }
             display: inline;
             margin: 0 20px;
-            font-weight: 700;
-            font-size: 18px;
-            color: $color-text;
-            text-transform: uppercase;
         }
     }
 }
